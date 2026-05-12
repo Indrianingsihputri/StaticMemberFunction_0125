@@ -11,5 +11,8 @@ public:
     void setID();
     void printAll();
 
-  
+    Mahasiswa(string pNama) : nama(pNama)
+    {
+        setID();
+    }
 };
