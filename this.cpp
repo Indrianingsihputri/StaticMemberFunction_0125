@@ -12,3 +12,8 @@ public:
         return this->judul;
     }
 };
+
+int main()
+{
+    
+}
