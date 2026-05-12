@@ -23,5 +23,10 @@ public:
     static int getNim()
     {
         return nim;
+    }
+
+    Mahasiswa(string pNama) : nama(pNama)
+    {
+        setID();
     };
 };
