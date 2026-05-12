@@ -3,5 +3,11 @@ using namespace std;
 
 class buku
 {
+    string judul;
 
+public:
+    string setget(string judul)
+    {
+
+    }
 };
