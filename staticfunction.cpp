@@ -49,16 +49,19 @@ int main()
 {
     Mahasiswa mhs1("Sri Ddi");
     Mahasiswa mhs2("Budi Jatmiko");
-
+    //emeberikan nilai baru untuk variabel static nim menggunakan fungsi setNim()
     Mahasiswa::setNim(9);
     Mahasiswa mhs3("Andi Janu");
     Mahasiswa mhs4("Joko Wahono");
 
+    //memanggil fungsi printAll() untuk menampilkan data mahasiswa
     mhs1.printAll();
     mhs2.printAll();
     mhs3.printAll();
     mhs4.printAll();
 
-    return 0;
+    cout << "Akses dari luar object = " << Mahasiswa::getNim() << endl;
+    system("pause");
 
+    return 0;
 }
